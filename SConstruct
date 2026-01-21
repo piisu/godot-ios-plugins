@@ -144,6 +144,10 @@ else:
     print("No valid version to set flags for.")
     quit();
 
+if env['version'] == '4.0' and env['plugin'] == 'arkit':
+    print("'arkit' plugin is 3.x only.")
+    quit();
+
 # Adding header files
 if env['version'] == '3.x':
     env.Append(CPPPATH=[
