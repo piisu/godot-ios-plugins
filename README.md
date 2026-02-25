@@ -1,3 +1,10 @@
+# ビルド方法
+```
+chmod +x scripts/*
+./scripts/build_plugin_godot4.sh inappstore 4.6-stable
+```
+
+
 # Godot iOS plugins
 
 [`master` branch](https://github.com/godotengine/godot-ios-plugins/tree/master) is the current development branch and can introduce breaking changes to plugin's public interface.
