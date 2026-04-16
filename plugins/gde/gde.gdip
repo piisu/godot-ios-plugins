@@ -1,0 +1,17 @@
+[config]
+name="GdeSupport"
+binary="gde.xcframework"
+
+initialization="register_gde_types"
+deinitialization="unregister_gde_types"
+
+[dependencies]
+linked=[]
+embedded=[]
+system=[]
+
+capabilities=[]
+
+files=[]
+
+[plist]
