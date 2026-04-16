@@ -58,7 +58,7 @@ mv "bin/${PLUGIN}.release_debug.xcframework" "bin/${PLUGIN}.debug.xcframework"
 
 # 出力先を用意
 OUT_DIR="bin/release/${PLUGIN}"
-A_BINARY_NAME="inappstore.a"
+A_BINARY_NAME="${PLUGIN}.a"
 rm -rf "${OUT_DIR}"
 mkdir -p "${OUT_DIR}"
 

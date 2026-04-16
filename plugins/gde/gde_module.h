@@ -28,5 +28,5 @@
 /* SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                */
 /*************************************************************************/
 
-void register_gde_types();
-void unregister_gde_types();
+void gde_support_init();
+void gde_support_deint();

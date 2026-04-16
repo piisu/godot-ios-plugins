@@ -2,8 +2,8 @@
 name="GdeSupport"
 binary="gde.xcframework"
 
-initialization="register_gde_types"
-deinitialization="unregister_gde_types"
+initialization="gde_support_init"
+deinitialization="gde_support_deint"
 
 [dependencies]
 linked=[]

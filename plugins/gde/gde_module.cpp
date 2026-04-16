@@ -42,12 +42,12 @@
 
 GdeSupport *gde_support;
 
-void register_gde_types() {
+void gde_support_init() {
 	gde_support = memnew(GdeSupport);
 	Engine::get_singleton()->add_singleton(Engine::Singleton("GdeSupport", gde_support));
 }
 
-void unregister_gde_types() {
+void gde_support_deint() {
 	if (gde_support) {
 		memdelete(gde_support);
 	}
