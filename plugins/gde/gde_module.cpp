@@ -47,7 +47,7 @@ void gde_support_init() {
 	Engine::get_singleton()->add_singleton(Engine::Singleton("GdeSupport", gde_support));
 }
 
-void gde_support_deint() {
+void gde_support_deinit() {
 	if (gde_support) {
 		memdelete(gde_support);
 	}

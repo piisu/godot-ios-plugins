@@ -29,4 +29,4 @@
 /*************************************************************************/
 
 void gde_support_init();
-void gde_support_deint();
+void gde_support_deinit();
